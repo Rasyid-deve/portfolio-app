@@ -26,7 +26,7 @@
 .desktopMenuListItem:hover {
   color: rgb(76, 76, 206);
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid;
+  border-bottom: 3px solid rgb(76, 76, 206);
 }
 
 .desktopMenuBtn {
