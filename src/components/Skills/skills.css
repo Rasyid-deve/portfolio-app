@@ -18,9 +18,9 @@
 }
 
 .skillDesc {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1rem;
-  min-width: 51rem;
+  max-width: 51rem;
   padding: 0 2rem;
 }
 
