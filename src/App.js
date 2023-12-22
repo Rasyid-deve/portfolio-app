@@ -1,3 +1,4 @@
+import Contact from './components/Contact/contact';
 import Intro from './components/Intro/intro';
 import Navbar from './components/NavBar/navbar';
 import Portfolio from './components/Portfolio/portfolio';
@@ -10,6 +11,7 @@ function App() {
       <Intro />
       <Skills />
       <Portfolio />
+      <Contact />
     </div>
   );
 }
