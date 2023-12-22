@@ -47,3 +47,23 @@
   width: 1rem;
   margin: 1rem;
 }
+
+.active {
+  color: rgb(76, 76, 206);
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid rgb(76, 76, 206);
+}
+
+.navMenu {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  height: fit-content;
+  min-width: 15rem;
+  background: rgb(40, 40, 40);
+  border-radius: 1rem;
+}
