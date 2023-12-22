@@ -15,6 +15,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // ! EMAIL MASIH BELUM BISA TERKIRIM
     emailjs.sendForm('service_5cpyy41', 'template_f7a3ng9', form.current, 'jASU1nbkAzHPofUvdYqq1').then(
       (result) => {
         console.log(result.text);
